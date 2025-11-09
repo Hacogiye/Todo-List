@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App - Quản lý công việc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📝 Todo App</h1>
+
+      <div class="form-section">
+        <div class="form-group">
+          <label for="name">New Todo:</label>
+          <input type="text" id="name" placeholder="Nhập công việc mới..." />
+          <button id="btnSave">💾 Save</button>
+        </div>
+      </div>
+
+      <hr />
+
+      <table id="todoList">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
